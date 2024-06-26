@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="util.IOUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-25T08:56:04" hostname="DESKTOP-P1DM5JT" time="0.003">
+  <properties/>
+  <testcase name="readData" classname="util.IOUtilsTest" time="0.003"/>
+  <system-out><![CDATA[17:56:04,238 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:56:04,238 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:56:04,238 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/smdmi/Desktop/intellij_workspace/Java-Web-Next-Step/Chap-3_6/build/resources/main/logback.xml]
+17:56:04,288 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:56:04,296 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:56:04,301 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:56:04,340 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+17:56:04,340 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+17:56:04,340 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+17:56:04,340 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+17:56:04,341 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:56:04,341 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:56:04,341 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@38145825 - Registering current configuration as safe fallback point
+
+17:56:04.347 [DEBUG] [Test worker] [util.IOUtilsTest] - parse body : abcd123
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
